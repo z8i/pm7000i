@@ -1,0 +1,12 @@
+{
+  "domain": "pm7000i",
+  "name": "PM7000i Energy Meter",
+  "codeowners": ["@z8i"],
+  "config_flow": true,
+  "documentation": "https://github.com/z8i/pm7000i",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/z8i/pm7000i/issues",
+  "requirements": ["websocket-client>=1.8.0"],
+  "version": "1.1.0"
+}

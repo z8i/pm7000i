@@ -1,0 +1,159 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Mit PM7000i verbinden",
+        "description": "Geräteadresse und Zugangsdaten eingeben."
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung nicht möglich. Adresse und Zugangsdaten prüfen.",
+      "invalid_auth": "Anmeldung fehlgeschlagen. Benutzername und Passwort prüfen."
+    },
+    "abort": {
+      "already_configured": "Dieses Gerät ist bereits eingerichtet."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "active_power": {
+        "name": "Wirkleistung"
+      },
+      "active_power_phase": {
+        "name": "Wirkleistung {phase}"
+      },
+      "active_power_import": {
+        "name": "Wirkleistung Bezug"
+      },
+      "active_power_import_phase": {
+        "name": "Wirkleistung Bezug {phase}"
+      },
+      "active_power_export": {
+        "name": "Wirkleistung Einspeisung"
+      },
+      "active_power_export_phase": {
+        "name": "Wirkleistung Einspeisung {phase}"
+      },
+      "reactive_power": {
+        "name": "Blindleistung"
+      },
+      "reactive_power_phase": {
+        "name": "Blindleistung {phase}"
+      },
+      "reactive_power_import": {
+        "name": "Blindleistung Bezug"
+      },
+      "reactive_power_import_phase": {
+        "name": "Blindleistung Bezug {phase}"
+      },
+      "reactive_power_export": {
+        "name": "Blindleistung Einspeisung"
+      },
+      "reactive_power_export_phase": {
+        "name": "Blindleistung Einspeisung {phase}"
+      },
+      "apparent_power": {
+        "name": "Scheinleistung"
+      },
+      "apparent_power_phase": {
+        "name": "Scheinleistung {phase}"
+      },
+      "apparent_power_import": {
+        "name": "Scheinleistung Bezug"
+      },
+      "apparent_power_import_phase": {
+        "name": "Scheinleistung Bezug {phase}"
+      },
+      "apparent_power_export": {
+        "name": "Scheinleistung Einspeisung"
+      },
+      "apparent_power_export_phase": {
+        "name": "Scheinleistung Einspeisung {phase}"
+      },
+      "current": {
+        "name": "Strom"
+      },
+      "current_phase": {
+        "name": "Strom {phase}"
+      },
+      "voltage": {
+        "name": "Spannung"
+      },
+      "voltage_phase": {
+        "name": "Spannung {phase}"
+      },
+      "power_factor": {
+        "name": "Leistungsfaktor"
+      },
+      "power_factor_phase": {
+        "name": "Leistungsfaktor {phase}"
+      },
+      "frequency": {
+        "name": "Netzfrequenz"
+      },
+      "frequency_phase": {
+        "name": "Netzfrequenz {phase}"
+      },
+      "active_energy_import": {
+        "name": "Wirkenergie Bezug"
+      },
+      "active_energy_import_phase": {
+        "name": "Wirkenergie Bezug {phase}"
+      },
+      "active_energy_export": {
+        "name": "Wirkenergie Einspeisung"
+      },
+      "active_energy_export_phase": {
+        "name": "Wirkenergie Einspeisung {phase}"
+      },
+      "reactive_energy_import": {
+        "name": "Blindenergie Bezug"
+      },
+      "reactive_energy_import_phase": {
+        "name": "Blindenergie Bezug {phase}"
+      },
+      "reactive_energy_export": {
+        "name": "Blindenergie Einspeisung"
+      },
+      "reactive_energy_export_phase": {
+        "name": "Blindenergie Einspeisung {phase}"
+      },
+      "apparent_energy_import": {
+        "name": "Scheinenergie Bezug"
+      },
+      "apparent_energy_import_phase": {
+        "name": "Scheinenergie Bezug {phase}"
+      },
+      "apparent_energy_export": {
+        "name": "Scheinenergie Einspeisung"
+      },
+      "apparent_energy_export_phase": {
+        "name": "Scheinenergie Einspeisung {phase}"
+      },
+      "unknown": {
+        "name": "Unbekannt (C={code})"
+      },
+      "unknown_phase": {
+        "name": "Unbekannt (C={code}) {phase}"
+      },
+      "measurement": {
+        "name": "{kind}"
+      },
+      "measurement_phase": {
+        "name": "{kind} {phase}"
+      },
+      "label": {
+        "name": "Bezeichnung"
+      },
+      "serial": {
+        "name": "Seriennummer"
+      },
+      "unit_id": {
+        "name": "Unit-ID"
+      },
+      "type": {
+        "name": "Gerätetyp"
+      }
+    }
+  }
+}

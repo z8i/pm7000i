@@ -1,0 +1,159 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to PM7000i",
+        "description": "Enter the device address and login credentials."
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect. Check the address and credentials.",
+      "invalid_auth": "Authentication failed. Check the username and password."
+    },
+    "abort": {
+      "already_configured": "This device is already configured."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "active_power": {
+        "name": "Active power"
+      },
+      "active_power_phase": {
+        "name": "Active power {phase}"
+      },
+      "active_power_import": {
+        "name": "Active power import"
+      },
+      "active_power_import_phase": {
+        "name": "Active power import {phase}"
+      },
+      "active_power_export": {
+        "name": "Active power export"
+      },
+      "active_power_export_phase": {
+        "name": "Active power export {phase}"
+      },
+      "reactive_power": {
+        "name": "Reactive power"
+      },
+      "reactive_power_phase": {
+        "name": "Reactive power {phase}"
+      },
+      "reactive_power_import": {
+        "name": "Reactive power import"
+      },
+      "reactive_power_import_phase": {
+        "name": "Reactive power import {phase}"
+      },
+      "reactive_power_export": {
+        "name": "Reactive power export"
+      },
+      "reactive_power_export_phase": {
+        "name": "Reactive power export {phase}"
+      },
+      "apparent_power": {
+        "name": "Apparent power"
+      },
+      "apparent_power_phase": {
+        "name": "Apparent power {phase}"
+      },
+      "apparent_power_import": {
+        "name": "Apparent power import"
+      },
+      "apparent_power_import_phase": {
+        "name": "Apparent power import {phase}"
+      },
+      "apparent_power_export": {
+        "name": "Apparent power export"
+      },
+      "apparent_power_export_phase": {
+        "name": "Apparent power export {phase}"
+      },
+      "current": {
+        "name": "Current"
+      },
+      "current_phase": {
+        "name": "Current {phase}"
+      },
+      "voltage": {
+        "name": "Voltage"
+      },
+      "voltage_phase": {
+        "name": "Voltage {phase}"
+      },
+      "power_factor": {
+        "name": "Power factor"
+      },
+      "power_factor_phase": {
+        "name": "Power factor {phase}"
+      },
+      "frequency": {
+        "name": "Grid frequency"
+      },
+      "frequency_phase": {
+        "name": "Grid frequency {phase}"
+      },
+      "active_energy_import": {
+        "name": "Active energy import"
+      },
+      "active_energy_import_phase": {
+        "name": "Active energy import {phase}"
+      },
+      "active_energy_export": {
+        "name": "Active energy export"
+      },
+      "active_energy_export_phase": {
+        "name": "Active energy export {phase}"
+      },
+      "reactive_energy_import": {
+        "name": "Reactive energy import"
+      },
+      "reactive_energy_import_phase": {
+        "name": "Reactive energy import {phase}"
+      },
+      "reactive_energy_export": {
+        "name": "Reactive energy export"
+      },
+      "reactive_energy_export_phase": {
+        "name": "Reactive energy export {phase}"
+      },
+      "apparent_energy_import": {
+        "name": "Apparent energy import"
+      },
+      "apparent_energy_import_phase": {
+        "name": "Apparent energy import {phase}"
+      },
+      "apparent_energy_export": {
+        "name": "Apparent energy export"
+      },
+      "apparent_energy_export_phase": {
+        "name": "Apparent energy export {phase}"
+      },
+      "unknown": {
+        "name": "Unknown (C={code})"
+      },
+      "unknown_phase": {
+        "name": "Unknown (C={code}) {phase}"
+      },
+      "measurement": {
+        "name": "{kind}"
+      },
+      "measurement_phase": {
+        "name": "{kind} {phase}"
+      },
+      "label": {
+        "name": "Label"
+      },
+      "serial": {
+        "name": "Serial number"
+      },
+      "unit_id": {
+        "name": "Unit ID"
+      },
+      "type": {
+        "name": "Device type"
+      }
+    }
+  }
+}
